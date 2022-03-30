@@ -22,11 +22,11 @@ Emoticons control
     <tr id="linha">
         <td id="backlog">Tarefa 1</td>
         <td id="progress">:running: Tarefa 2</td>
-        <td id="done">Tarefa 7</td>
+        <td id="done">:heavy_check_mark: Tarefa 7</td>
     </tr>
     <tr id="linha">
         <td id="backlog">Tarefa 5</td>
-        <td id="progress"> :running: Tarefa 8</td>
+        <td id="progress">:running: Tarefa 8</td>
         <td id="done">-</td>
     </tr>
     <tr id="linha">
