@@ -7,7 +7,7 @@ Emoticons control
 :running:
 -->
 <style>
-table, th, td {
+table,tr,td,th{
   border: 1px solid black;
 }
 </style>
