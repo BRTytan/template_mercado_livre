@@ -6,8 +6,12 @@ Emoticons control
 :x:
 :running:
 -->
-
-<table border="1">
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<table>
     <tr id="header">
         <th>
             Backlog
