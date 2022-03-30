@@ -1,26 +1,47 @@
-<table border='1'>
-    <tr id="title">
+<!---
+Emoticons control
+:heavy_check_mark:
+:heavy_exclamation_mark:
+:red_circle:
+:x:
+:running:
+-->
+
+<table border="1">
+    <tr id="header">
         <th>
             Backlog
         </th>
         <th>
-            IN PROGRESS
+            In Pogress
         </th>
         <th>
-            DONE
+            Done
         </th>
     </tr>
-    <tr>
-        <td>
-            :sleeping_bed: Tarefa 2
-        </td>
-        <td>
-            :running:Tarefa 1
-        </td>
+    <tr id="linha">
+        <td id="backlog">Tarefa 1</td>
+        <td id="progress">:running: Tarefa 2</td>
+        <td id="done">Tarefa 7</td>
     </tr>
-    <tr id="linhas">
-        <td>
-            :sleeping_bed:  Tarefa 3
-        </td>
+    <tr id="linha">
+        <td id="backlog">Tarefa 5</td>
+        <td id="progress"> :running: Tarefa 8</td>
+        <td id="done">-</td>
+    </tr>
+    <tr id="linha">
+        <td id="backlog">Tarefa 6</td>
+        <td id="progress">-</td>
+        <td id="done">-</td>
+    </tr>
+    <tr id="linha">
+        <td id="backlog">-</td>
+        <td id="progress">-</td>
+        <td id="done">-</td>
+    </tr>
+    <tr id="linha">
+        <td id="backlog">-</td>
+        <td id="progress">-</td>
+        <td id="done">-</td>
     </tr>
 </table>
