@@ -1,3 +1,4 @@
+/* tags padrões */
 b {
     color:red;
     font-size: small;
@@ -7,19 +8,42 @@ h5 {
     color:rgb(111, 214, 9);
     font-weight: bolder;
 }
+header {
+    position: sticky;
+    top:0%;
+    width: 100%;
+    height: 87px;
+    margin:0px;
+    padding:0px;
+    background-color: yellow;
+}
+body{
+    margin:0px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+/* slides promotions */
+.slide{
+    margin:2px;
+    padding: 40px 8px 40px 8px;
+    width: 100%;
+    height: 255px;
+    background-color:blue;
+}
+
+/* content payment */
 .container-pay {
     width: 854px;
     height: 90px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 8px;
-    padding-right: 8px;
+    margin:6px;
+    padding: 40px 8px 40px 8px;
     background-color: brown;
     display:flex;
     justify-content: space-around;
     align-items: center;
 }
 .box-pay {
+    
     width: auto;
     height: auto;
     margin: 5px;
@@ -28,18 +52,9 @@ h5 {
     width: 25px;
     height: 25px;
 }
-body{
-    margin:0px 0px 0px 0px;
+/* content recomendations */
+.recomendations{
     width: 100%;
-    height: auto;
-}
-header {
-    width: 100%;
-    height: 87px;
-    background-color: yellow;
-}
-.slide{
-    width: 870px;
-    height: 255px;
-    background-color:blue;
+    height: 2170px;
+    background-color: aqua;
 }
