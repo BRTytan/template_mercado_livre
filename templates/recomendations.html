@@ -1,12 +1,14 @@
-<section class="recomendations">
-    <p>Baseada na sua ultima visita <a href="home">Ver histórico</a>
-    <div class="linhas">
-        <div width="224px" height="378px">
-            <img width="50px" height="50px"
-                src="https://images.vexels.com/media/users/3/157570/isolated/lists/4b39b362c76ea5a00de62f8ff839b5ed-icone-de-smartphone-simples.png">
-            <h3>R$ 799<em>89</em></h3>
-            <h4>10x R$ 73,04 sem juros</h4>
-            <h5>Frete grátis</h5>
+<section>
+    <p>Baseada na sua ultima visita <a href="{{home}}">Ver histórico</a>
+        <div class='linhas' width="auto" height="350px">
+            {% for x in items['items'] %}
+            <div class="container-items">
+                <img width="150px" height="150px" src="{{x['imagem']}}">
+                <h1>{{x['titulo']}}</h1>
+                <h3>R$ {{"%.2f" | format(x['valor'])}}</h3>
+                <h4>{{x['parcelamento']}}x R$ {{ "%.2f" | format( x['valor']/x['parcelamento'] ) }} sem juros</h4>
+                <h5>Frete grátis</h5>
+            </div>
+            {% endfor %}
         </div>
-    </div>
 </section>

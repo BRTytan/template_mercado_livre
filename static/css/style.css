@@ -16,6 +16,8 @@ header {
     margin:0px;
     padding:0px;
     background-color: yellow;
+    display:flex;
+    justify-content: left;
 }
 body{
     margin:0px 2px 0px 0px;
@@ -63,6 +65,19 @@ body{
 /* content recomendations */
 .recomendations{
     width: 100%;
-    height: 2170px;
+    height: 350px;
     background-color: aqua;
+    
+}
+.linhas {
+    width: 100%;
+    height: 457px;
+    display:flex;
+    background-color: aqua;
+    overflow-x: scroll;
+    margin:5px;
+}
+.container-items{
+    padding-right: 50px;
+    width:150px;
 }
