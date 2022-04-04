@@ -18,6 +18,3 @@ def hello():
     return render_template('historico.html',items=data)
 
 app.run(debug=True)
-
-
-
